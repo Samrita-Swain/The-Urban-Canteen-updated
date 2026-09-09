@@ -91,7 +91,7 @@ const Header = () => {
                       src="/assets/img/logo/URBAN-LOGO.png"
                       alt="logo-img"
                       loading="eager"
-                      style={{ height: "70px", width: "auto" }}
+                      style={{ height: "80px", width: "auto" }}
                     />
                   </Link>
                 </div>

@@ -3,10 +3,11 @@ import { sliderProps } from "@/utility/sliderProps";
 import Link from "next/link";
 import { Swiper, SwiperSlide } from "swiper/react";
 import GallerySlider from "./GallerySlider";
+import InstagramBannerSlider from "@/components/InstagramBannerSlider";
 
 const FoodSlider = () => {
   return (
-    <section className="food-category-section fix section-padding dark-bg">
+    <section className="food-category-section fix section-padding">
       <div className="tomato-shape">
         <img src="assets/img/shape/tomato-shape.png" alt="shape-img" />
       </div>
@@ -23,21 +24,10 @@ const FoodSlider = () => {
               </h2>
             </div>
           </div>
-          <div
-            className="col-md-5 ps-0 col-3 text-end wow fadeInUp"
-            data-wow-delay=".5s"
-          >
-            <div className="array-button">
-              <button className="array-prev">
-                <i className="far fa-long-arrow-left" />
-              </button>
-              <button className="array-next">
-                <i className="far fa-long-arrow-right" />
-              </button>
-            </div>
-          </div>
+          
         </div>
-        <GallerySlider />
+        <InstagramBannerSlider />
+
       </div>
     </section>
   );

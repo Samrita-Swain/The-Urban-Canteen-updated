@@ -191,6 +191,7 @@ Version: 1.0.0
   line-height: 1.5;
 }
 @media (max-width: 767px) {
+
   .theme-btn {
     padding: 14px 32px;
     font-size: 14px;
@@ -378,11 +379,11 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Barlow Condensed", sans-serif;
+  font-family: "Cormorant Garamond", serif;
   margin: 0px;
   padding: 0;
   color: var(--header);
-  text-transform: uppercase;
+  text-transform: capitalize;
   -webkit-transition: all 0.4s ease-in-out;
   transition: all 0.4s ease-in-out;
 }
@@ -414,7 +415,7 @@ h1 {
 }
 
 h2 {
-  font-size: 65px;
+  font-size: 47px;
   line-height: 110%;
   font-weight: 700;
 }
@@ -455,7 +456,7 @@ h3 {
 }
 
 h4 {
-  font-size: 20px;
+  font-size: 17px;
   font-weight: 600;
 }
 
@@ -3878,7 +3879,7 @@ input.main-search-input::placeholder {
   position: absolute;
   bottom: 0;
   right: 0;
-  padding: 45px;
+  padding: 30px;
   background-color: var(--theme);
 }
 @media (max-width: 575px) {
@@ -3888,10 +3889,11 @@ input.main-search-input::placeholder {
 }
 
 .about-wrapper-2 .pizza-image .quate-content h3 {
-  font-size: 28px;
+  font-size: 24px;
   position: relative;
   z-index: 9;
   color: var(--white);
+  letter-spacing: 1px;
 }
 @media (max-width: 575px) {
   .about-wrapper-2 .pizza-image .quate-content h3 {
@@ -7699,6 +7701,7 @@ input.main-search-input::placeholder {
   background: none;
   max-width: 500px;
   width: 100%;
+  transition: all 0.4s ease-in-out;
 }
 .comboo-wrapper .food-comboo-content .nav .nav-link:not(:last-child) {
   margin-bottom: 25px;
@@ -8334,7 +8337,7 @@ input.main-search-input::placeholder {
   right: 0;
   bottom: 0;
   content: "";
-  background-color: rgba(33, 33, 33, 0.9);
+  background-color: #88a137d7;
   -webkit-transform: scale(1, 0);
   transform: scale(1, 0);
   -webkit-transition: -webkit-transform 500ms ease;
@@ -8371,6 +8374,129 @@ input.main-search-input::placeholder {
 }
 .instagram-banner-items.style-2 .banner-image::before {
   background-color: rgba(0, 129, 61, 0.9);
+}
+
+.instagram-slider-wrapper {
+  position: relative;
+  width: 100%;
+  padding: 0 70px;
+}
+
+.instagram-banner-slider {
+  width: 100%;
+  overflow: hidden;
+}
+
+.instagram-banner-slider .swiper-slide {
+  height: auto;
+}
+
+.instagram-banner-items {
+  width: 100%;
+}
+
+.instagram-banner-items .banner-image {
+  position: relative;
+  width: 100%;
+  height: 360px;
+  overflow: hidden;
+  border-radius: 20px;
+}
+
+.instagram-banner-items .banner-image img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: cover;
+}
+
+/* Previous / Next buttons */
+
+.instagram-prev,
+.instagram-next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 48px;
+  height: 48px;
+  border: 0;
+  border-radius: 50%;
+  background: var(--theme);
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  z-index: 10;
+  transition: all 0.3s ease;
+}
+
+.instagram-prev {
+  left: 5px;
+}
+
+.instagram-next {
+  right: 5px;
+}
+
+.instagram-prev:hover,
+.instagram-next:hover {
+  transform: translateY(-50%) scale(1.08);
+}
+
+.instagram-prev i,
+.instagram-next i {
+  font-size: 18px;
+}
+
+/* Tablet */
+
+@media (max-width: 991px) {
+  .instagram-slider-wrapper {
+    padding: 0 60px;
+  }
+
+  .instagram-banner-items .banner-image {
+    height: 320px;
+  }
+
+  .instagram-prev,
+  .instagram-next {
+    width: 42px;
+    height: 42px;
+  }
+}
+
+/* Mobile */
+
+@media (max-width: 575px) {
+  .instagram-slider-wrapper {
+    padding: 0 45px;
+  }
+
+  .instagram-banner-items .banner-image {
+    height: 350px;
+    border-radius: 15px;
+  }
+
+  .instagram-prev,
+  .instagram-next {
+    width: 36px;
+    height: 36px;
+  }
+
+  .instagram-prev {
+    left: 0;
+  }
+
+  .instagram-next {
+    right: 0;
+  }
+
+  .instagram-prev i,
+  .instagram-next i {
+    font-size: 14px;
+  }
 }
 
 .pasta-banner-items {
@@ -12455,10 +12581,10 @@ p.sticky-label {
 
 .home-about-subtitle {
   display: block;
-  margin-bottom: 8px;
+  margin-bottom: 0px;
   color: #a58b55;
   font-family: Georgia, serif;
-  font-size: 18px;
+  font-size: 17px;
   font-style: italic;
   letter-spacing: 1px;
   font-weight: 600;
@@ -12824,7 +12950,7 @@ p.sticky-label {
 }
 
 .dark-bg {
-  background: #cbcbcb57;
+  background: #f7eee2;
 }
 
 .logo {
@@ -14561,10 +14687,11 @@ p.sticky-label {
   margin-bottom: 20px;
 
   color: #e2bd68;
-  font-size: 12px;
+  font-family: Georgia, serif;
+    font-style: italic;
+    letter-spacing: 1px;
+  font-size: 11px;
   font-weight: 600;
-  letter-spacing: 5px;
-  text-transform: uppercase;
 }
 
 .eyebrow-line {
@@ -14595,7 +14722,6 @@ p.sticky-label {
 }
 
 .premium-section-title h2 em {
-  color: var(--theme);
 
   font-family: Georgia, serif;
 
@@ -14618,10 +14744,11 @@ p.sticky-label {
 
   color: rgba(255, 255, 255, 0.88);
 
-  font-size: 16px;
-  line-height: 1.8;
+  font-size: 17px;
+  letter-spacing: 0.5px;
 
   font-weight: 400;
+  font-family: "Cormorant Garamond", serif;
 }
 
 /* =====================================================
@@ -15526,6 +15653,9 @@ p.sticky-label {
 ========================================================= */
 
 @media (max-width: 767px) {
+  .highlights-word{
+    font-size: 25px !important;
+  }
   .offer-popup-overlay {
     padding: 15px;
   }
@@ -15605,4 +15735,7 @@ p.sticky-label {
 
     transition: none !important;
   }
+}
+.no-pointer {
+  cursor: default !important;
 }
