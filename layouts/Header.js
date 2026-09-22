@@ -9,7 +9,7 @@ import { Fragment, useEffect, useRef, useState } from "react";
 const navItems = [
   { label: "Home", href: "/" },
   { label: "About", href: "/about" },
-  { label: "Menu", href: "#" },
+  { label: "Menu", href: "/menu" },
   { label: "Gallery", href: "/gallery" },
   { label: "Contact", href: "/contact" },
 ];

@@ -1,151 +1,5 @@
 import Link from "next/link";
 
-// const Footer = ({ footer }) => {
-//   switch (footer) {
-//     case 1:
-//       return <Footer1 />;
-//     case 2:
-//       return <Footer2 />;
-
-//     default:
-//       return <Footer1 />;
-//   }
-// };
-// const Footer1 = () => {
-//   return (
-//     <footer className="footer-section fix section-bg">
-//       <div className="burger-shape">
-//         <img src="assets/img/shape/burger-shape-3.png" alt="burger-shape" />
-//       </div>
-//       <div className="fry-shape">
-//         <img src="assets/img/shape/fry-shape-2.png" alt="burger-shape" />
-//       </div>
-//       <div className="container">
-//         <div className="footer-widgets-wrapper">
-//           <div className="row">
-//             <div
-//               className="col-xl-3 col-sm-6 col-md-6 col-lg-3 wow fadeInUp"
-//               data-wow-delay=".2s"
-//             >
-//               <div className="single-footer-widget">
-//                 <div className="widget-head">
-//                   <Link href="/">
-//                     <img src="assets/img/logo/URBAN-LOGO.png" alt="logo-img" style={{ width: "35%" }} />
-//                   </Link>
-//                 </div>
-//                 <div className="footer-content">
-//                   <p>
-//                     We believe it has the power to do <br />
-//                     amazing things.
-//                   </p>
-//                   <span>Interested in working with us?</span> <br />
-//                   <a href="mailto:info@example.com" className="link">
-//                     info@example.com
-//                   </a>
-
-//                 </div>
-//               </div>
-//             </div>
-//             <div
-//               className="col-xl-3 ps-lg-5 col-sm-6 col-md-3 col-lg-3 wow fadeInUp"
-//               data-wow-delay=".4s"
-//             >
-//               <div className="single-footer-widget">
-//                 <div className="widget-head">
-//                   <h4>Quick Links</h4>
-//                 </div>
-//                 <ul className="list-items">
-//                   <li>
-//                     <Link href="/">Home</Link>
-//                   </li>
-//                   <li>
-//                     <Link href="/about">About</Link>
-//                   </li>
-//                   <li>
-//                     <Link href="#">Menu</Link>
-//                   </li>
-//                   <li>
-//                     <Link href="/gallery">Gallery</Link>
-//                   </li>
-//                   <li>
-//                     <Link href="/contact">Contact Us</Link>
-//                   </li>
-//                 </ul>
-//               </div>
-//             </div>
-//             <div
-//               className="col-xl-3 ps-lg-4 col-sm-6 col-md-3 col-lg-3 wow fadeInUp"
-//               data-wow-delay=".6s"
-//             >
-//               <div className="single-footer-widget">
-//                 <div className="widget-head">
-//                   <h4>Follow Us Now</h4>
-//                 </div>
-
-//                 <ul className="list-item">
-//                   <li>
-//                     <a href="#">
-//                       <i className="fab fa-facebook-f" style={{marginRight: "10px"}}/>Facebook
-//                     </a>
-//                   </li>
-//                   <li>
-//                      <a href="#">
-//                       <i className="fab fa-instagram" style={{marginRight: "10px"}}/>Instagram
-//                     </a>
-//                   </li>
-//                   <li>
-//                      <a href="#">
-//                       <i className="fab fa-twitter" style={{marginRight: "10px"}}/>Twitter
-//                     </a>
-//                   </li>
-//                   <li>
-//                     <a href="#">
-//                       <i className="fab fa-youtube" style={{marginRight: "10px"}}/>Youtube
-//                     </a>
-//                   </li>
-
-//                 </ul>
-//               </div>
-//             </div>
-//             <div
-//               className="col-xl-3 col-sm-6 col-md-6 col-lg-3 wow fadeInUp"
-//               data-wow-delay=".8s"
-//             >
-//               <div className="single-footer-widget">
-//                 <div className="widget-head">
-//                   <h4>Address:</h4>
-//                 </div>
-//                 <div className="footer-address-text">
-//                   <h6>
-//                     Ground Floor, Infocity Ave, Chandaka Industrial Estate, I.E, Chandrasekharpur, Bhubaneswar, Odisha 751021
-//                   </h6>
-//                   <h5>Hours:</h5>
-//                   <h6>
-//                     9.30am – 6.30pm <br />
-//                     Monday to Friday
-//                   </h6>
-//                 </div>
-//               </div>
-//             </div>
-
-//           </div>
-//         </div>
-//       </div>
-//       <div className="footer-bottom">
-//         <div className="container">
-//           <div className="footer-bottom-wrapper d-flex align-items-center justify-content-between">
-//             <p className="wow fadeInLeft" data-wow-delay=".3s">
-//               © Copyright <span className="theme-color-3">2026</span>{" "}
-//               <Link href="/">The Urban Canteen </Link>. All Rights Reserved By <span className="theme-color-3"> <Link href="https://crushaderstech.com/">Crushaders Tech</Link></span>
-//             </p>
-
-//           </div>
-//         </div>
-//       </div>
-//     </footer>
-//   );
-// };
-
 const Footer = () => {
   return (
     <footer className="footer-section section-bg-3 fix">
@@ -174,20 +28,7 @@ const Footer = () => {
                     necessitatibus saepe eveniet voluta repudiandae molestiae
                     recusandae Itaquear rerum hic tenetur sapiente delectus
                   </p>
-                  {/* <div className="social-icon d-flex align-items-center">
-                    <a href="#">
-                      <i className="fab fa-facebook-f" />
-                    </a>
-                    <a href="#">
-                      <i className="fab fa-twitter" />
-                    </a>
-                    <a href="#">
-                      <i className="fab fa-vimeo-v" />
-                    </a>
-                    <a href="#">
-                      <i className="fab fa-pinterest-p" />
-                    </a>
-                  </div> */}
+                  
                 </div>
               </div>
             </div>
@@ -208,7 +49,7 @@ const Footer = () => {
                       <Link href="/about">About</Link>
                     </li>
                     <li>
-                      <Link href="#">Menu</Link>
+                      <Link href="/menu">Menu</Link>
                     </li>
                     <li>
                       <Link href="/gallery">Gallery</Link>

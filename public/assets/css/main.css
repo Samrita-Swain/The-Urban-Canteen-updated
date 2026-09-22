@@ -5062,10 +5062,10 @@ input.main-search-input::placeholder {
 }
 .food-icon-wrapper .single-food-icon .content h4 {
   color: var(--white);
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 }
 .food-icon-wrapper .single-food-icon .content p {
-  color: var(--white);
+  color: #ffffffc7;
 }
 
 .choose-us-2 {
@@ -7730,7 +7730,7 @@ input.main-search-input::placeholder {
   .nav-link
   .food-comboo-list
   .comboo-title {
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 600;
   text-transform: uppercase;
   color: var(--header);
