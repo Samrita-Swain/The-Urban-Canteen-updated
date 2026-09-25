@@ -1,9 +1,5 @@
 import AboutFoodItems from "@/components/AboutFoodItems";
-import InstagramBannerSlider from "@/components/InstagramBannerSlider";
 import Marque from "@/components/Marque";
-import { NextSaleBanner2 } from "@/components/NextSaleBanner";
-import PageBanner from "@/components/PageBanner";
-import TestimonialSlider from "@/components/TestimonialSlider";
 import FoodKingLayout from "@/layouts/FoodKingLayout";
 import Link from "next/link";
 import "bootstrap-icons/font/bootstrap-icons.css";
@@ -170,9 +166,7 @@ const page = () => {
                 <span>Explore Menu</span>
               </a>
             </div>
-            <div className="delivery-man">
-              <img src="assets/img/delivery-man-2.png" alt="img" />
-            </div>
+            
           </div>
         </div>
       </section>
