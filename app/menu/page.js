@@ -216,7 +216,25 @@ export default function Menu() {
 
   return (
     <FoodKingLayout>
-      <PageBanner pageName={"Our Menu"} />
+      <div
+      className="breadcrumb-wrapper bg-cover"
+      style={{ backgroundImage: 'url("/assets/img/banner/menu-banner.webp")' }}
+    >
+      <div className="container">
+        <div className="page-heading center">
+          <h1>Our Menu</h1>
+          <ul className="breadcrumb-items">
+            <li>
+              <Link href="/">Home Page</Link>
+            </li>
+            <li>
+              <i className="far fa-chevron-right" />
+            </li>
+            <li>Menu</li>
+          </ul>
+        </div>
+      </div>
+    </div>
        <main className="tuc-menu-page">
 
       {/* =====================================================

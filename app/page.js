@@ -4,7 +4,6 @@ import Marque from "@/components/Marque";
 import ReservationForm from "@/components/ReservationForm";
 import Reviews from "@/components/Reviews";
 import FoodKingLayout from "@/layouts/FoodKingLayout";
-import InstagramBannerSlider from "@/components/InstagramBannerSlider";
 export const metadata = {
   title: "The Urban Canteen | Authentic Food & Dining Experience",
   description:
@@ -605,8 +604,7 @@ Urban Moments. </span>
           FOOD CATEGORY
       ===================================================== */}
       <section
-        className="food-slider-wrapper wow fadeInUp"
-        data-wow-duration="1s"
+        className="food-slider-wrapper"
       >
         <FoodSlider />
       </section>

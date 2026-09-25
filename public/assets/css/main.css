@@ -15852,7 +15852,7 @@ p.sticky-label {
 
   margin: 30px 0 0;
 
-  font-size: 16px;
+  /* font-size: 16px; */
   line-height: 1.9;
 
   color: var(--tuc-muted);
@@ -15904,10 +15904,6 @@ p.sticky-label {
   max-width: 370px;
 
   margin: 0;
-
-  font-size: 15px;
-  line-height: 1.8;
-
   color: var(--tuc-muted);
 }
 
@@ -16178,8 +16174,6 @@ p.sticky-label {
 .menu-item-content > p {
   margin: 13px 0 0;
 
-  font-size: 15px;
-  line-height: 1.7;
 
   color: var(--tuc-muted);
 }
@@ -16566,10 +16560,7 @@ p.sticky-label {
     letter-spacing: -1.5px;
   }
 
-  .menu-intro-main p {
-    font-size: 14px;
-    line-height: 1.8;
-  }
+  
 
   .menu-section {
     padding: 75px 0 85px;
@@ -16579,9 +16570,7 @@ p.sticky-label {
     margin-bottom: 45px;
   }
 
-  .menu-heading-text {
-    font-size: 14px;
-  }
+
 
   .menu-filters {
     gap: 4px;
@@ -16647,9 +16636,6 @@ p.sticky-label {
 
   .menu-item-content > p {
     max-width: 95%;
-
-    font-size: 13px;
-    line-height: 1.7;
   }
 
   .menu-item-bottom {

@@ -18,8 +18,8 @@ const FoodSlider = () => {
         <div className="row">
           <div className="col-md-7 col-9">
             <div className="section-title">
-              <span className="wow fadeInUp home-about-subtitle ">Crispy, Every Bite a Taste</span>
-              <h2 className="wow fadeInUp" data-wow-delay=".3s">
+              <span className="home-about-subtitle ">Crispy, Every Bite a Taste</span>
+              <h2>
                 Popular Food Items
               </h2>
             </div>

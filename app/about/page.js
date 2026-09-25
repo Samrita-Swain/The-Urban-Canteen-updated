@@ -18,7 +18,25 @@ export const metadata = {
 const page = () => {
   return (
     <FoodKingLayout>
-      <PageBanner pageName={"About us"} />
+      <div
+      className="breadcrumb-wrapper bg-cover"
+      style={{ backgroundImage: 'url("/assets/img/banner/about-banner.webp")' }}
+    >
+      <div className="container">
+        <div className="page-heading center">
+          <h1>About Us</h1>
+          <ul className="breadcrumb-items">
+            <li>
+              <Link href="/">Home Page</Link>
+            </li>
+            <li>
+              <i className="far fa-chevron-right" />
+            </li>
+            <li>About Us</li>
+          </ul>
+        </div>
+      </div>
+    </div>
       {/* About Section Start */}
       <section className="about-section fix section-padding section-bg">
 
