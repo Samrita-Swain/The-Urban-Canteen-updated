@@ -23,7 +23,7 @@ const page = () => {
           <h1>About Us</h1>
           <ul className="breadcrumb-items">
             <li>
-              <Link href="/">Home Page</Link>
+              <Link href="/">Home</Link>
             </li>
             <li>
               <i className="far fa-chevron-right" />
@@ -36,12 +36,12 @@ const page = () => {
       {/* About Section Start */}
       <section className="about-section fix section-padding section-bg">
 
-        <div className="about-top-decoration">
+        {/* <div className="about-top-decoration">
           <img
             src="assets/img/about/mirchi.webp"
             alt=""
           />
-        </div>
+        </div> */}
         <div className="container">
           <div className="about-wrapper">
             <div className="row align-items-center">
@@ -52,7 +52,7 @@ const page = () => {
               >
 
                 <div className="about-image">
-                  <img src="assets/img/food/03.webp" alt="about-img" />
+                  <img src="/assets/img/restaurant/11.webp" alt="about-img" />
 
                   {/* <div className="price">
                     <h2>

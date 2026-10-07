@@ -807,11 +807,11 @@ input.main-search-input::placeholder {
 }
 
 .section-padding {
-  padding: 100px 0;
+  padding: 60px 0;
 }
 @media (max-width: 1199px) {
   .section-padding {
-    padding: 100px 0;
+    padding: 60px 0;
   }
 }
 @media (max-width: 991px) {
@@ -2152,7 +2152,7 @@ input.main-search-input::placeholder {
 }
 .breadcrumb-wrapper .page-heading .breadcrumb-items li {
   font-size: 20px;
-  color: var(--theme2);
+  color: var(--theme);
   font-weight: 600;
   text-transform: uppercase;
 }
@@ -2162,16 +2162,16 @@ input.main-search-input::placeholder {
   }
 }
 .breadcrumb-wrapper .page-heading .breadcrumb-items li a {
-  color: var(--theme2);
+  color: var(--theme);
   -webkit-transition: all 0.4s ease-in-out;
   transition: all 0.4s ease-in-out;
 }
 .breadcrumb-wrapper .page-heading .breadcrumb-items li a:hover {
-  color: var(--theme);
+  color: var(--theme3);
 }
 .breadcrumb-wrapper .page-heading .breadcrumb-items li i {
   font-size: 20px;
-  color: var(--theme2);
+  color: var(--theme);
 }
 @media (max-width: 575px) {
   .breadcrumb-wrapper .page-heading .breadcrumb-items li i {
@@ -3686,8 +3686,8 @@ input.main-search-input::placeholder {
 
 .about-wrapper .about-image {
   position: relative;
-  animation: rotate 15s linear infinite;
-  width: 85%;
+  /* animation: rotate 15s linear infinite;
+  width: 85%; */
 }
 .about-wrapper .about-image img {
   width: 100%;

@@ -15,17 +15,12 @@ const FoodSlider = () => {
         <img src="assets/img/shape/burger-shape-2.png" alt="shape-img" />
       </div>
       <div className="container">
-        <div className="row">
-          <div className="col-md-7 col-9">
-            <div className="section-title">
+        <div className="section-title" style={{ textAlign: "center" }}>
               <span className="home-about-subtitle ">Crispy, Every Bite a Taste</span>
               <h2>
                 Popular Food Items
               </h2>
             </div>
-          </div>
-          
-        </div>
         <InstagramBannerSlider />
 
       </div>
