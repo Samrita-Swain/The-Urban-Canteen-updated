@@ -14936,9 +14936,9 @@ p.sticky-label {
   right: 25px;
   bottom: 25px;
 
-  display: flex;
+  /* display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: center; */
 
   gap: 14px;
 
@@ -15016,7 +15016,7 @@ p.sticky-label {
 
   z-index: 3;
 
-  transform: translateZ(20px);
+  /* transform: translateZ(20px); */
 }
 
 /* WhatsApp Icon */
@@ -16732,4 +16732,10 @@ p.sticky-label {
     transition: none;
   }
 
+}
+
+
+
+.floating-action-buttons-whatsapp {
+    left: 25px !important;
 }

@@ -169,7 +169,7 @@ const menuItems = [
       "Milk Chocolate and Whipped Cream Cheese, Zesty Cherry Sauce, Chocolate Sponge",
     price: "₹255",
     image: "/assets/img/gallery/15.webp",
-    tag: "",
+    tag: "Popular",
   },
   {
     id: 16,
@@ -179,7 +179,7 @@ const menuItems = [
       "Cream Cheese Mousse, Blueberry Compote",
     price: "₹255",
     image: "/assets/img/gallery/16.webp",
-    tag: "Popular",
+    tag: "",
   },
   {
     id: 17,
@@ -195,7 +195,7 @@ const menuItems = [
     name: "Death By Chocolate Shake",
     price: "₹255",
     image: "/assets/img/gallery/18.webp",
-    tag: "Seasonal",
+    tag: "",
   },
 ];
 
