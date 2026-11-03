@@ -24,11 +24,8 @@ const Footer = () => {
                 </div>
                 <div className="footer-content">
                   <p>
-                    Temporibus autem quibusdam officiis debitis aut rerum
-                    necessitatibus saepe eveniet voluta repudiandae molestiae
-                    recusandae Itaquear rerum hic tenetur sapiente delectus
+                    Good food, great vibes, and memorable moments. Welcome to The Urban Canteen — your place to eat, relax, and enjoy.
                   </p>
-                  
                 </div>
               </div>
             </div>
@@ -42,9 +39,6 @@ const Footer = () => {
                 </div>
                 <div className="list-area d-flex align-items-center">
                   <ul>
-                    {/* <li>
-                      <Link href="/">Home</Link>
-                    </li> */}
                     <li>
                       <Link href="/about">About</Link>
                     </li>
@@ -73,12 +67,12 @@ const Footer = () => {
                 <div className="list-area d-flex align-items-center">
                   <ul>
                     <li>
-                      <a href="#">
+                      <a href="https://www.facebook.com/profile.php?id=61564685393021">
                         <i className="fab fa-facebook-f" style={{ marginRight: "10px" }} />Facebook
                       </a>
                     </li>
                     <li>
-                      <a href="#">
+                      <a href="https://www.instagram.com/theurbancanteen_/">
                         <i className="fab fa-instagram" style={{ marginRight: "10px" }} />Instagram
                       </a>
                     </li>
@@ -125,37 +119,12 @@ const Footer = () => {
         </div>
       </div>
       <div className="footer-bottom style-2">
-        {/* <div
-          id="scrollUp"
-          className="scroll-icon bg-cover"
-          style={{ backgroundImage: 'url("assets/img/shop-food/box.png")' }}
-        >
-          <i className="fas fa-arrow-alt-up" />
-        </div> */}
         <div className="container">
           <div className="footer-bottom-wrapper d-flex align-items-center justify-content-between">
             <p className="wow fadeInLeft" data-wow-delay=".3s">
               © Copyright <span className="theme-color-3">2026</span>{" "}
               <Link href="/">The Urban Canteen </Link>. All Rights Reserved By <span className="theme-color-3"><Link href="https://crushaderstech.com/" className="theme-color-3">Crushaders Tech</Link></span>
             </p>
-            {/* <ul className="wow fadeInRight" data-wow-delay=".5s">
-              <li>
-                <Link href="/contact">
-                  <span className="text-effect">
-                    <span className="effect-1">Privacy Policy</span>
-                    <span className="effect-1">Privacy Policy</span>
-                  </span>
-                </Link>
-              </li>
-              <li>
-                <Link href="/contact">
-                  <span className="text-effect">
-                    <span className="effect-1">Terms &amp; Condition</span>
-                    <span className="effect-1">Terms &amp; Condition</span>
-                  </span>
-                </Link>
-              </li>
-            </ul> */}
           </div>
         </div>
       </div>

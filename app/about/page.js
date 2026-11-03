@@ -1,5 +1,6 @@
 import AboutFoodItems from "@/components/AboutFoodItems";
 import Marque from "@/components/Marque";
+import PageBanner from "@/components/PageBanner";
 import FoodKingLayout from "@/layouts/FoodKingLayout";
 import Link from "next/link";
 import "bootstrap-icons/font/bootstrap-icons.css";
@@ -14,25 +15,11 @@ export const metadata = {
 const page = () => {
   return (
     <FoodKingLayout>
-      <div
-      className="breadcrumb-wrapper bg-cover"
-      style={{ backgroundImage: 'url("/assets/img/banner/about-banner.webp")' }}
-    >
-      <div className="container">
-        <div className="page-heading center">
-          <h1>About Us</h1>
-          <ul className="breadcrumb-items">
-            <li>
-              <Link href="/">Home</Link>
-            </li>
-            <li>
-              <i className="far fa-chevron-right" />
-            </li>
-            <li>About Us</li>
-          </ul>
-        </div>
-      </div>
-    </div>
+
+
+      <PageBanner pageName={"About us"} bannerImage="/assets/img/restaurant/6.webp" />
+
+
       {/* About Section Start */}
       <section className="about-section fix section-padding section-bg">
 
