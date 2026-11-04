@@ -16,9 +16,22 @@ const FoodSlider = () => {
       </div>
       <div className="container">
         <div className="section-title" style={{ textAlign: "center" }}>
-              <span className="home-about-subtitle ">Crispy, Every Bite a Taste</span>
+          <div
+            class="premium-eyebrow wow fadeInUp"
+            data-wow-duration="0.8s"
+            style={{ visibility: "visible", animationDuration: "0.8s"}}
+          >
+            <span class="eyebrow-line"></span>
+            <span
+              class="home-about-subtitle wow fadeInUp"
+            >
+              Taste Meets Vibe
+            </span>
+            <span class="eyebrow-line"></span>
+          </div>
+              
               <h2>
-                Popular Food Items
+                Savour the <span style={{ color: "var(--theme)" }}> Flavours</span>,<br /> Feel the <span style={{ color: "var(--theme)" }}> Vibe </span>
               </h2>
             </div>
         <InstagramBannerSlider />
