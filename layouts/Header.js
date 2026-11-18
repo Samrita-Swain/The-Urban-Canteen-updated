@@ -244,7 +244,7 @@ const Sidebar = ({ toggle, setToggle }) => {
                       <i className="fal fa-map-marker-alt" />
                     </div>
                     <div className="offcanvas__contact-text">
-                      <a target="_blank" rel="noopener noreferrer" href="#">
+                      <a target="_blank" rel="noopener noreferrer" href="https://maps.app.goo.gl/joTiBSRbfipHgPhQA">
                         Ground Floor, Infocity Ave, Chandaka
                         Industrial Estate, I.E,
                         Chandrasekharpur, Bhubaneswar,
@@ -267,7 +267,7 @@ const Sidebar = ({ toggle, setToggle }) => {
                       <i className="far fa-phone" />
                     </div>
                     <div className="offcanvas__contact-text">
-                      <a href="tel:+919938161712">+91 99381 61712</a>
+                      <a href="tel:+919938161712">+91 9938161712</a>
                     </div>
                   </li>
                 </ul>
